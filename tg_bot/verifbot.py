@@ -42,14 +42,14 @@ class State:
 
 USERS: dict[int, State] = {}
 SENTENCES = [
-    "Mr. Choco is going to visit his friend",
-    "Who knows why and why",
-    "The strongest group in Telegram",
-    "You're The Best",
-    "love",
-    "Waiting to join you",
-    "What a verification bot come on",
-    "Abundant livelihood"
+    "אדון שוקו הולך לבקר חבר שלו",
+    "מי יודע מדוע ולמה",
+    "הקבוצה הכי חזקה בטלגרם",
+    "הכי טובים",
+    "אוהבים",
+    "מחכה להצטרף",
+    "איזה בוט מעולה",
+    "פרנסה בשפע"
 ]
 ADMINS = [5733045846, 1674341520, 867531681]
 CONFIRMED = set()
@@ -61,7 +61,7 @@ client = Client(
     "botter",
     api_id=1,
     api_hash="b6b154c3707471f5339bd661645ed3d6",
-    bot_token="5919985885:AAEdWkjQBIAmZsesvrgXKxbAMLOieMQxXOM"
+    bot_token="5609929825:AAHLFFw_KytBWPDAvRPTNlb2exPJ1OhjtD4"
 )
 
 
